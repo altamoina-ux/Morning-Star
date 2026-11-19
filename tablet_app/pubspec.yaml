@@ -1,0 +1,27 @@
+name: qiminghat_tablet
+description: "启明帽 Android 平板客户端：环境监测、拍照识字与本机朗读。"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.1.0
+  camera: ^0.12.2
+  dio: ^5.11.1
+  flutter_secure_storage: ^11.2.0
+  flutter_svg: ^2.4.0
+  flutter_tts: ^4.2.5
+  shared_preferences: ^2.5.6
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,49 @@
+# Secrets and machine-local configuration.
+.env
+.env.*
+!.env.example
+**/config.local.h
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# Python environments, caches, and generated files.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases, model weights, logs, and generated outputs.
+*.db
+*.sqlite
+*.sqlite3
+*.pt
+*.onnx
+*.log
+/handoff_render/
+*.apk
+*.aab
+firmware/**/*.bin
+
+# Flutter/Android build products and local SDK paths.
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+**/build/
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+
+# JavaScript dependencies.
+node_modules/
+
+# Local firmware backups.
+/firmware/esp32s3_gray_camera/config.local.h
+/firmware/local_backups/
+
